@@ -18,7 +18,7 @@ class Server{
     async middlewares(app) {
       
       app.use(cors({
-        origin: ['http://localhost:5173', 'http://localhost:5174','https://monitorrindodeploymaster.cyclic.app,https://squad3.vercel.app/'],
+        origin: ['http://localhost:5173', 'http://localhost:5174','https://monitorrindodeploymaster.cyclic.app,https://squad3.vercel.app'],
         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
         credentials: true,
       }));
